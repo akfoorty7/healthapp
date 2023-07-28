@@ -115,6 +115,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.1"
+  new_pinput:
+    dependency: "direct main"
+    description:
+      name: new_pinput
+      sha256: f632ce2b8ab2191eacd9e8c92c855d985439d9250d76a4130935b189efbbe169
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.1"
   path:
     dependency: transitive
     description:
@@ -123,6 +131,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.8.3"
+  pintextfield:
+    dependency: "direct main"
+    description:
+      name: pintextfield
+      sha256: bd4cba5d57891f5e330b5b260951844834a6da746d4c3292bb66431468fd4764
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.1.1"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -176,6 +192,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.5.1"
+  universal_platform:
+    dependency: transitive
+    description:
+      name: universal_platform
+      sha256: d315be0f6641898b280ffa34e2ddb14f3d12b1a37882557869646e0cc363d0cc
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0+1"
   vector_math:
     dependency: transitive
     description:
@@ -186,3 +210,4 @@ packages:
     version: "2.1.4"
 sdks:
   dart: ">=3.0.6 <4.0.0"
+  flutter: ">=3.7.0"

@@ -11,6 +11,8 @@ import 'package:health_app/report.dart';
 
 class NewPage extends StatelessWidget {
   //const NewPage({super.key});
+
+
   var username;
   var password;
   NewPage(String username, String password) {
@@ -30,7 +32,11 @@ class NewPage extends StatelessWidget {
                 children: [
                   Padding(
                     padding: const EdgeInsets.all(8),
-                    child: Image.asset('assets/notification-fill.png',scale: 2.5,),
+                    child: GestureDetector(
+                      onTap: (){
+                        ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text("No New Notifications!")));
+                      } ,
+                        child: Image.asset('assets/notification-fill.png',scale: 2.5,)),
                   ),
                 ],
               ),
